@@ -9,7 +9,9 @@ import lombok.*;
 @Setter
 public class DiscordMessageRequest {
 
+    String date;
     String title;
     String content;
+    String url;
 
 }
