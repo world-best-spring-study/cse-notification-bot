@@ -15,7 +15,7 @@ public class TestController {
 
     @PostMapping
     public void sendNotification(@RequestBody DiscordMessageRequest discordMessageRequest) {
-        //webHookService.sendToDiscord(discordMessageRequest);
+        webHookService.sendToDiscord(discordMessageRequest);
     }
 
 }
